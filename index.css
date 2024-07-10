@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto; /* first argument is top-bottom margin, 2nd argument is left-right argument.*/
+    background-image: url();
+    background-repeat: no-repeat;
+    color:black;
+    display:flex; /*create*/
+    flex-direction:column;/**/
+    min-height: 110vh;
+}
+
+nav {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    border-bottom: darkred 3px solid;
+    background-color: beige;
+    
+}
+
+nav a{
+    padding:14px 18px;
+    color:black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: darkred;
+
+}
+
+nav a:hover{
+    background-color: darkred;
+    color:white;
+
+}
+
+main {
+    display:flex;
+    flex-direction: row;
+}
+
